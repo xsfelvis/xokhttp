@@ -20,9 +20,9 @@ import xsf.xokhttp.util.FileHttpUtil;
 import xsf.xokhttp.util.GsonUtil;
 import xsf.xokhttp.util.HttpUtilOld;
 import xsf.xokhttp.util.Tools;
-import xsf.xokhttp.util.UseHttp;
+import xsf.xokhttp.util.XOkHttpUtil;
 
-public class MVCActivity extends BaseActvity {
+public class XokhttpTestActivity extends BaseActvity {
     private TextView tvShow;
     private TextView tvShow1;
     private Weather weather = new Weather();
@@ -92,12 +92,12 @@ public class MVCActivity extends BaseActvity {
             @Override
             public void onSucess(File file) {
                 AppLog.d("FILE3", file.getAbsolutePath());
-                Toast.makeText(MVCActivity.this, "下载成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(XokhttpTestActivity.this, "下载成功", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFail(BaseResponse response) {
-                Toast.makeText(MVCActivity.this, "下载失败", Toast.LENGTH_SHORT).show();
+                Toast.makeText(XokhttpTestActivity.this, "下载失败", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -109,7 +109,7 @@ public class MVCActivity extends BaseActvity {
     private void showWeatherInfo1() {
 
 
-        UseHttp.getWeater(this, new ResultCallBack<WeatherNew>() {
+        XOkHttpUtil.getWeater(this, new ResultCallBack<WeatherNew>() {
             @Override
             public void onSucess(WeatherNew weather) {
 
@@ -123,7 +123,7 @@ public class MVCActivity extends BaseActvity {
 
             @Override
             public void onFail(BaseResponse response) {
-                Toast.makeText(MVCActivity.this, "解析失败", Toast.LENGTH_SHORT).show();
+                Toast.makeText(XokhttpTestActivity.this, "解析失败", Toast.LENGTH_SHORT).show();
             }
         });
 

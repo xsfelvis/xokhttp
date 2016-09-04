@@ -2,13 +2,10 @@ package xsf.xokhttp.util;
 
 import android.content.Context;
 
-import java.io.File;
-
 import xsf.xokhttp.Url;
 import xsf.xokhttp.bean.WeatherNew;
 import xsf.xokhttp.net.BaseRequest;
 import xsf.xokhttp.net.BaseResponse;
-import xsf.xokhttp.net.FileDownloadRequest;
 import xsf.xokhttp.net.HttpUtil;
 import xsf.xokhttp.net.ResultCallBack;
 
@@ -17,7 +14,7 @@ import xsf.xokhttp.net.ResultCallBack;
  * Time: created at 2016/9/4.
  * Copyright 2016 Netease. All rights reserved.
  */
-public class UseHttp {
+public class XOkHttpUtil {
 
     private static void sendRequest(final Context context, BaseRequest requestData, final ResultCallBack callBack) {
         if (requestData == null) {
@@ -48,7 +45,6 @@ public class UseHttp {
                     resultCallBack.onSucess(weather);
                 }
             }
-
             @Override
             public void onFail(BaseResponse response) {
                 if (resultCallBack != null) {
@@ -59,10 +55,7 @@ public class UseHttp {
         });
     }
 
-    public static void getFile(final  Context context, final ResultCallBack<File> resultCallBack){
-        FileDownloadRequest downloadRequest = new FileDownloadRequest(Url.WEATHER_URL_TEST);
 
-    }
 
 
 }

@@ -27,7 +27,7 @@ public class MainActivity extends BaseActvity {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_mvc:
-                launchActvity(MVCActivity.class);
+                launchActvity(XokhttpTestActivity.class);
                 break;
             case R.id.btn_mvp:
                 launchActvity(MVPActivity.class);
