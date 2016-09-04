@@ -86,6 +86,7 @@ json串必须是有对象名，如
 >}
 
 在BaseResopnse也可以看出，做的注解处理，记得保持一直即可
+
     ` @SerializedName(value = "code", alternate = {"retcode", "operationResp", "error"})
     public String code;
     @SerializedName(value = "msg", alternate = {"detailMsg", "retdesc"})
