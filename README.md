@@ -52,6 +52,7 @@
 `
 
 然后在正式调用的时候XokhttpTestActviy中 直接调用，可以看出回调函数已经帮将json串解析好了
+
     `        XOkHttpUtil.getWeater(this, new ResultCallBack<WeatherNew>() {
             @Override
             public void onSucess(WeatherNew weather) {
