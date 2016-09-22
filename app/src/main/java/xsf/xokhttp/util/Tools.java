@@ -33,7 +33,7 @@ import xsf.xokhttp.MyApplication;
 
 
 /**
- * @author tianli
+ * @author xsfelvis
  */
 public class Tools {
     public final static String TAG = Tools.class.getName();

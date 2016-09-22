@@ -7,9 +7,8 @@ import xsf.xokhttp.bean.weather.IndexItem;
 import xsf.xokhttp.bean.weather.WeatherData;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/9/4.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class WeatherNew implements Serializable{
     public String currentCity;

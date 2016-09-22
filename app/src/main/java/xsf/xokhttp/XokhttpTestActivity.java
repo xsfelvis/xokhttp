@@ -38,7 +38,7 @@ public class XokhttpTestActivity extends BaseActvity {
 
     @Override
     protected void initView() {
-        getSupportActionBar().setTitle("MVC");
+        getSupportActionBar().setTitle("okhttpTest");
         tvShow = IfindViewById(R.id.tvShowInfo);
         tvShow1 = IfindViewById(R.id.tvShowInfo1);
         IfindViewById(R.id.btn_getInfo).setOnClickListener(this);

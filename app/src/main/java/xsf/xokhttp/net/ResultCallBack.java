@@ -14,9 +14,8 @@ import xsf.xokhttp.util.Tools;
 
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public abstract class ResultCallBack<T> {
     public Gson gson = new GsonBuilder().create();

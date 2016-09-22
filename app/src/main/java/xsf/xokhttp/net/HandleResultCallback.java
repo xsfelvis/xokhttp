@@ -15,9 +15,8 @@ import okhttp3.Call;
 import okhttp3.Response;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class HandleResultCallback implements Icallback<BaseResponse> {
     public final Handler handler;

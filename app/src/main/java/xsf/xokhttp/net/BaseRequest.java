@@ -21,9 +21,8 @@ import xsf.xokhttp.util.DigestUtils;
 
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public abstract class BaseRequest {
     public static final String NET_CONNECTION_ERROR = "1112";

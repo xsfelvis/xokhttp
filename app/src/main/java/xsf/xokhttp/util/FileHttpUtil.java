@@ -8,9 +8,8 @@ import xsf.xokhttp.net.FileResultCallBack;
 import xsf.xokhttp.net.HttpUtil;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/9/4.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class FileHttpUtil {
     private static final boolean DEV = BuildConfig.FLAVOR.equals("dev");

@@ -4,9 +4,8 @@ import com.google.gson.annotations.SerializedName;
 
 /**
  * 这里决定了只能解析的类型 必须有object对应的name才可以
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class BaseResponse<T> {
     @SerializedName(value = "code", alternate = {"retcode", "operationResp", "error"})

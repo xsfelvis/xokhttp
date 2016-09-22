@@ -10,9 +10,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class RequestParams {
     private StringBuffer params = new StringBuffer();

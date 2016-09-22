@@ -1,9 +1,8 @@
 package xsf.xokhttp.net;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/29.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class HttpRequest extends BaseRequest {
     final public static String RET_CODE_SUCCESS = "0000";

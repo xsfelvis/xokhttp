@@ -10,9 +10,8 @@ import xsf.xokhttp.net.HttpUtil;
 import xsf.xokhttp.net.ResultCallBack;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/9/4.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class XOkHttpUtil {
 

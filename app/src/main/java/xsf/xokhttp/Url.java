@@ -1,9 +1,8 @@
 package xsf.xokhttp;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/9/4.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class Url {
     public static final String WEATHER_URL_LOACL = "http://192.168.0.7:8080/xsf/weather.json";

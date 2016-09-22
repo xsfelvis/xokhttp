@@ -12,9 +12,8 @@ import okio.Okio;
 import okio.Source;
 
 /**
- * Author: hzxushangfei
+ * Author: xsfelvis
  * Time: created at 2016/8/28.
- * Copyright 2016 Netease. All rights reserved.
  */
 public class ProgressResponseBody extends ResponseBody {
     private final ResponseBody responseBody;
