@@ -52,6 +52,7 @@
 `
 
 然后在正式调用的时候XokhttpTestActviy中 直接调用，可以看出回调函数已经帮将json串解析好了
+
     `        XOkHttpUtil.getWeater(this, new ResultCallBack<WeatherNew>() {
             @Override
             public void onSucess(WeatherNew weather) {
@@ -86,6 +87,7 @@ json串必须是有对象名，如
 >}
 
 在BaseResopnse也可以看出，做的注解处理，记得保持一直即可
+
     ` @SerializedName(value = "code", alternate = {"retcode", "operationResp", "error"})
     public String code;
     @SerializedName(value = "msg", alternate = {"detailMsg", "retdesc"})
